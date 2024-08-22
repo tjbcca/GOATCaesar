@@ -1,39 +1,46 @@
-body {
+.mbody {
   background-image: url("images/CAESAR.jpg");
   background-size: 1300px;
   color: aqua;
   background-attachment: fixed;
 }
-p {
-  text-align: center;
-}
-table {
+.tImage {
   background-color: black;
   text-align: center;
   margin: auto;
   font-size: large;
   align-items: center;
 }
+.andy {
+  background: none;
+  text-align: center;
+  margin: auto;
+  font-size: large;
+  align-items: center;
+}
 .textTable {
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  font-size: large;
+  align-items: center;
   opacity: 65%;
 }
-
 .achievements {
   background-color: black;
   color: rgb(107, 119, 131);
   opacity: 90%;
 }
-
 .b_table {
   border: 1px inset gold;
   border-color: gold;
   border-width: 5px;
 }
-th {
+.tHead {
   text-align: middle;
   margin: auto;
 }
-a {
+.links {
   color: rgb(102, 102, 223);
 }
 .video {
@@ -43,6 +50,6 @@ a {
   height: 75vh; /* Full viewport height */
   margin: auto;
 }
-p {
+.paragraph {
   align-items: center;
 }
