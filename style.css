@@ -12,11 +12,12 @@
   align-items: center;
 }
 .andy {
-  background: none;
+  background: black;
   text-align: center;
   margin: auto;
   font-size: large;
   align-items: center;
+  width: 10em;
 }
 .textTable {
   background-color: black;
@@ -24,17 +25,22 @@
   margin: auto;
   font-size: large;
   align-items: center;
-  opacity: 65%;
+  opacity: 80%;
 }
 .achievements {
+  display: flex;
   background-color: black;
-  color: rgb(107, 119, 131);
+  color: rgb(153, 255, 85);
   opacity: 90%;
+  align-self: center;
 }
 .b_table {
   border: 1px inset gold;
   border-color: gold;
   border-width: 5px;
+  text-align: center;
+  width: 50em;
+  height: 2em;
 }
 .tHead {
   text-align: middle;
