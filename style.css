@@ -1,6 +1,6 @@
 .mbody {
   background-image: url("images/CAESAR.jpg");
-  background-size: 1300px;
+  background-size: cover;
   color: aqua;
   background-attachment: fixed;
 }
@@ -10,6 +10,7 @@
   margin: auto;
   font-size: large;
   align-items: center;
+  width: 10em;
 }
 .andy {
   background: black;
@@ -26,17 +27,20 @@
   font-size: large;
   align-items: center;
   opacity: 80%;
+  max-width: 35em;
 }
 .achievements {
   display: flex;
   background-color: black;
-  color: rgb(153, 255, 85);
+  color: aqua;
   opacity: 90%;
-  align-self: center;
+  justify-items: center;
+  margin: auto;
+  width: 70em;
 }
 .b_table {
-  border: 1px inset gold;
-  border-color: gold;
+  border: 1px inset aqua;
+  border-color: aqua;
   border-width: 5px;
   text-align: center;
   width: 50em;
@@ -58,4 +62,7 @@
 }
 .paragraph {
   align-items: center;
+}
+.bigcaes {
+  width: auto;
 }
