@@ -3,6 +3,7 @@
   background-size: cover;
   color: aqua;
   background-attachment: fixed;
+  margin: 0%;
 }
 .tImage {
   background-color: black;
@@ -77,7 +78,11 @@
   width: 100%;
   margin-top: -6pt;
   position: absolute;
-  left: -5pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
 }
 .theimages {
   width: 35em;
@@ -94,5 +99,10 @@
   width: 100%;
   margin-bottom: -6pt;
   position: absolute;
-  left: -5pt;
+}
+.HeadLine {
+  font-size: 18pt;
+}
+.headCheck {
+  width: 40em;
 }
