@@ -1,5 +1,5 @@
 .mbody {
-  background-image: url("images/CAESAR.jpg");
+  background-color: rgb(66, 61, 61);
   background-size: cover;
   color: aqua;
   background-attachment: fixed;
@@ -65,4 +65,20 @@
 }
 .bigcaes {
   width: auto;
+}
+.headTable {
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  font-size: large;
+  align-items: center;
+  opacity: 80%;
+  max-width: 110%;
+  width: 110%;
+  margin-top: -6pt;
+  margin-left: -10pt;
+}
+.theimages {
+  width: 35em;
+  height: auto;
 }
